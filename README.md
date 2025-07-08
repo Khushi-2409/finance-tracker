@@ -1,40 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Here’s a polished **README.md** draft you can use—it provides a clear project overview, setup instructions, feature breakdowns, and contributions guidance:
 
-## Getting Started
+---
 
-First, run the development server:
+````markdown
+# 💰 Finance Tracker
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**, and **MongoDB**. A clean, responsive UI to track transactions, visualize spending, set budgets, and gain insights into your financial habits.
+
+---
+
+## 🚀 Features
+
+### Stage 1: Core Functionality
+- Add/Edit/Delete transactions with:  
+  - Amount  
+  - Description  
+  - Date  
+  - Category
+- View transactions in a responsive, multi-column layout
+- Hover effects, polished styling, and mobile-friendly design
+
+### Stage 2: Analytics & Insights
+- **Predefined categories** like Food, Travel, Utilities, Shopping, Entertainment, and Others  
+- **Category-wise spending pie chart** with custom legends  
+- **Summary cards** for:  
+  - Total Expenses  
+  - Category breakdown  
+  - Most recent transactions  
+- Intuitive layout with Tailwind’s responsive grid
+
+### Stage 3: Budgeting & Comparisons
+- Set and store **monthly category budgets**
+- **Budget vs actual bar comparison chart**
+- **Monthly expense bar chart**
+- **Spending Insights** panel:
+  - Total spent this month  
+  - Top spending category  
+  - Budget status (over/under)  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js App Router** (latest v15)
+- **React** with Server & Client Components
+- **MongoDB + Mongoose** for backend data management
+- **Tailwind CSS** for styling and layouts
+- **Recharts** for interactive data visualizations
+- **ESLint** & **TypeScript** for code quality and type safety
+
+---
+
+## 📝 Getting Started
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Khushi-2409/finance-tracker.git
+   cd finance-tracker
+````
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment**
+   Create `.env.local`:
+
+   ```
+   MONGODB_URI=mongodb+srv://<USERNAME>:<PASSWORD>@<cluster>.mongodb.net/finance?retryWrites=true&w=majority
+   ```
+
+4. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Visit [http://localhost:3000](http://localhost:3000)
+
+5. **Use the app**
+
+   * Add transactions
+   * Set budgets
+   * View analytics and insights
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── app/               # Next.js App Router pages & components
+│   ├── api/           # Backend API routes
+│   ├── page.tsx       # Main dashboard page
+│   └── other pages…   
+├── components/        # UI components (cards, forms, charts)
+├── lib/               # Database connection & utilities
+├── models/            # Mongoose models
+├── styles/            # Global styles and Tailwind config
+└── public/            # Static assets (icons, images)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 💡 Usage Tips
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+* Add a new transaction via the form for expense/income tracking
+* Click "Set Monthly Budget" to allocate spending limits by category
+* Visualize spending breakdowns with pie and bar charts
+* Insights tell you where you're over or under budget
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👩‍💻 Contributing
 
-## Learn More
+Contributions are welcome! Please:
 
-To learn more about Next.js, take a look at the following resources:
+1. Fork the repo
+2. Create a feature branch (`git checkout -b my-feature`)
+3. Commit your changes (`git commit -m "feat: description"`)
+4. Push (`git push origin my-feature`)
+5. Create a Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
+MIT © Khushi
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 📬 Questions?
+
+Feel free to open an issue or pull request. I'm always happy to help!
+
+---
+
+Enjoy tracking your finances with clarity and style! 💎
+
+```
+
+---
+
+Feel free to tweak the emoji usage, headings, or section order to match your personal brand. Let me know if you'd like to highlight live demo links, CI badges, or deployment notes!
+::contentReference[oaicite:0]{index=0}
+```
