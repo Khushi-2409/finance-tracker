@@ -49,14 +49,12 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 ## 📝 Getting Started
 
 1. **Clone the repo**
-   ```bash
    git clone https://github.com/Khushi-2409/finance-tracker.git
    cd finance-tracker
 ````
 
 2. **Install dependencies**
 
-   ```bash
    npm install
    ```
 
@@ -69,7 +67,6 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 
 4. **Run the development server**
 
-   ```bash
    npm run dev
    ```
 
@@ -85,7 +82,6 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 
 ## 📂 Repository Structure
 
-```text
 ├── app/               # Next.js App Router pages & components
 │   ├── api/           # Backend API routes
 │   ├── page.tsx       # Main dashboard page
@@ -134,10 +130,4 @@ Feel free to open an issue or pull request. I'm always happy to help!
 
 Enjoy tracking your finances with clarity and style! 💎
 
-```
-
----
-
-Feel free to tweak the emoji usage, headings, or section order to match your personal brand. Let me know if you'd like to highlight live demo links, CI badges, or deployment notes!
-::contentReference[oaicite:0]{index=0}
 ```
