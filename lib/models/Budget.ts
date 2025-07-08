@@ -10,7 +10,7 @@ const BudgetSchema = new Schema({
     required: true,
   },
   month: {
-    type: String, // Format: '2025-07'
+    type: String, 
     required: true,
   },
 });

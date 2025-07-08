@@ -78,7 +78,6 @@ export default function CategoryPieChart({ data }: Props) {
 
         {/* Custom Legend */}
         <div className="w-full lg:w-1/3 flex flex-col gap-2 text-sm text-gray-800">
-          {/* <h4 className="font-semibold text-center lg:text-left mb-1">🧾 Legend</h4> */}
           {chartData.map((entry, index) => (
             <div key={index} className="flex items-center gap-2">
               <span
