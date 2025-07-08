@@ -91,7 +91,7 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 ├── models/            # Mongoose models
 ├── styles/            # Global styles and Tailwind config
 └── public/            # Static assets (icons, images)
-
+```
 ---
 
 ## 💡 Usage Tips
