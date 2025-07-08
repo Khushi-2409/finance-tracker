@@ -1,8 +1,3 @@
-Here’s a polished **README.md** draft you can use—it provides a clear project overview, setup instructions, feature breakdowns, and contributions guidance:
-
----
-
-````markdown
 # 💰 Finance Tracker
 
 A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**, and **MongoDB**. A clean, responsive UI to track transactions, visualize spending, set budgets, and gain insights into your financial habits.
