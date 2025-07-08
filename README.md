@@ -81,7 +81,7 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 ---
 
 ## 📂 Repository Structure
-
+```
 ├── app/               # Next.js App Router pages & components
 │   ├── api/           # Backend API routes
 │   ├── page.tsx       # Main dashboard page
@@ -91,7 +91,6 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 ├── models/            # Mongoose models
 ├── styles/            # Global styles and Tailwind config
 └── public/            # Static assets (icons, images)
-```
 
 ---
 
