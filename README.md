@@ -51,28 +51,22 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 1. **Clone the repo**
    git clone https://github.com/Khushi-2409/finance-tracker.git
    cd finance-tracker
-````
-
-2. **Install dependencies**
+   
+3. **Install dependencies**
 
    npm install
-   ```
 
-3. **Configure environment**
+4. **Configure environment**
    Create `.env.local`:
-
-   ```
    MONGODB_URI=mongodb+srv://<USERNAME>:<PASSWORD>@<cluster>.mongodb.net/finance?retryWrites=true&w=majority
-   ```
 
-4. **Run the development server**
+5. **Run the development server**
 
    npm run dev
-   ```
-
+   
    Visit [http://localhost:3000](http://localhost:3000)
 
-5. **Use the app**
+7. **Use the app**
 
    * Add transactions
    * Set budgets
@@ -91,7 +85,6 @@ A full-stack personal finance dashboard built with **Next.js**, **Tailwind CSS**
 ├── models/            # Mongoose models
 ├── styles/            # Global styles and Tailwind config
 └── public/            # Static assets (icons, images)
-```
 
 ---
 
@@ -130,4 +123,3 @@ Feel free to open an issue or pull request. I'm always happy to help!
 
 Enjoy tracking your finances with clarity and style! 💎
 
-```
