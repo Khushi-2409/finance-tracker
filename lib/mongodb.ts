@@ -1,3 +1,11 @@
+// Extend globalThis to include mongoose
+declare global {
+  var mongoose: {
+    conn: any | null;
+    promise: Promise<any> | null;
+  };
+}
+
 import mongoose from 'mongoose';
 
 const MONGODB_URI = process.env.MONGODB_URI as string;
@@ -6,7 +14,11 @@ if (!MONGODB_URI) {
   throw new Error('Please define the MONGODB_URI environment variable inside .env.local');
 }
 
-let cached: { conn: any | null; promise: Promise<any> | null } = global.mongoose || { conn: null, promise: null };
+let cached = global.mongoose;
+
+if (!cached) {
+  cached = global.mongoose = { conn: null, promise: null };
+}
 
 async function connectDB() {
   if (cached.conn) return cached.conn;
